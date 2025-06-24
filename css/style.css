@@ -1,21 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
-    /* background-color: aqua; */
     font-family: Roboto;
 }
 
 .container{
     margin: 0 auto;
-    padding: 0 auto;
+    padding: 1rem;
     max-width: 1200px;
+    
 }
 
 .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0;
+    color: white;
 }
 
-nav a{
+.header-links a{
     margin-right: 1rem;
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px 0;
 }
