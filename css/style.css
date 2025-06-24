@@ -1,9 +1,21 @@
 body{
-    background-color: aqua;
+    /* background-color: aqua; */
+    font-family: Roboto;
 }
 
-header{
+.container{
+    margin: 0 auto;
+    padding: 0 auto;
+    max-width: 1200px;
+}
+
+.header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px 0;
+}
+
+nav a{
+    margin-right: 1rem;
 }
