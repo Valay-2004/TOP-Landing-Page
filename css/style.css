@@ -35,4 +35,11 @@ body{
     justify-content: space-around;
     align-items: center;
     padding: 60px 0;
+    gap: 40px;
+}
+
+.hero-left h1{
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 10px;
 }
