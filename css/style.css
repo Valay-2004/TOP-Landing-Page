@@ -8,8 +8,8 @@ body {
   background-color: aqua;
 }
 
-.hero{
-    background-color: #1F2937;
+.hero {
+  background-color: #1f2937;
 }
 
 .header {
@@ -18,19 +18,78 @@ body {
   align-items: center;
 }
 
-.header-logo{
-    color: white;
+.header-logo {
+  font-size: 24px;
+  color: #f9faf8;
 }
 
-.header-links ul{
+.header-links ul {
   list-style: none;
   display: flex;
   margin: 1.2rem;
   padding: 0;
 }
 
-.header-links li, a{
-    margin-right: 10px;
-    text-decoration: none;
-    color: grey;
+.header-links li,
+a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.below-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 20rem;
+  padding: 20px;
+}
+
+.hero-left{
+    max-width: 400px;
+    text-align: center;
+}
+
+.hero-left h1 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+  margin-bottom: 1rem;
+}
+
+.hero-left p{
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 1.5rem;
+}
+
+.hero-left button{
+    padding: 5px 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: #e5e7eb;
+    border: none;
+    font-weight: bold;
+}
+
+.hero-right {
+  position: relative;
+  display: inline-block;
+  max-width: 400px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.hero-right img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Soft shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effects */
 }
