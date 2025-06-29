@@ -46,35 +46,32 @@ a {
   padding: 20px;
 }
 
-.hero-left{
-    max-width: 400px;
-    text-align: center;
+.hero-left {
+  max-width: 400px;
+  text-align: center;
 }
 
 .hero-left h1 {
-  display: inline-flex;
-  flex-direction: column;
-  align-items: flex-start;
   font-size: 48px;
   font-weight: 900;
   color: #f9faf8;
   margin-bottom: 1rem;
 }
 
-.hero-left p{
-    font-size: 18px;
-    color: #e5e7eb;
-    margin-bottom: 1.5rem;
+.hero-left p {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-bottom: 1.5rem;
 }
 
-.hero-left button{
-    padding: 5px 30px;
-    cursor: pointer;
-    border-radius: 5px;
-    background-color: #3882F6;
-    color: #e5e7eb;
-    border: none;
-    font-weight: bold;
+.hero-left button {
+  padding: 5px 30px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #3882f6;
+  color: #e5e7eb;
+  border: none;
+  font-weight: bold;
 }
 
 .hero-right {
@@ -83,13 +80,29 @@ a {
   max-width: 400px;
   width: 100%;
   overflow: hidden;
+  border-radius: 15px;
+  padding: 8px; /* Optional: adds spacing between image and glow */
+  background: linear-gradient(
+    135deg,
+    #374151,
+    #1f2937
+  ); /* Adds depth around image */
 }
 
 .hero-right img {
   display: block;
   width: 100%;
   height: auto;
-  border-radius: 15px; /* Rounded corners */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Soft shadow */
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effects */
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5), 0 0 10px rgba(255, 255, 255, 0.1); /* Soft white glow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+.hero-right:hover img {
+  transform: scale(1.03);
+  box-shadow:
+    0 6px 12px rgba(0, 0, 0, 0.6),
+    0 0 16px rgba(255, 255, 255, 0.2); /* Brighter glow on hover */
+}
+
+
