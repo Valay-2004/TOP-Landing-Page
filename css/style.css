@@ -16,6 +16,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  /* padding: 24px 250px; */
 }
 
 .header-logo {
@@ -27,7 +28,6 @@ body {
   list-style: none;
   display: flex;
   margin: 1.2rem;
-  padding: 0;
 }
 
 .header-links li,
@@ -42,26 +42,25 @@ a {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  min-height: 20rem;
-  padding: 20px;
+  padding: 100px 250px;
+  gap: 60px;
 }
 
 .hero-left {
   max-width: 400px;
-  text-align: center;
 }
 
 .hero-left h1 {
   font-size: 48px;
   font-weight: 900;
   color: #f9faf8;
-  margin-bottom: 1rem;
+  margin-bottom: 5px;
 }
 
 .hero-left p {
   font-size: 18px;
   color: #e5e7eb;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .hero-left button {
@@ -81,12 +80,6 @@ a {
   width: 100%;
   overflow: hidden;
   border-radius: 15px;
-  padding: 8px; /* Optional: adds spacing between image and glow */
-  background: linear-gradient(
-    135deg,
-    #374151,
-    #1f2937
-  ); /* Adds depth around image */
 }
 
 .hero-right img {
@@ -105,10 +98,13 @@ a {
 
 .middle-section {
   background-color: #f9faf8;
-  padding: 30px 40px;
+  padding: 50px;
 }
 
 #middle-section-header {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
   text-align: center;
   margin-bottom: 50px;
 }
@@ -135,9 +131,9 @@ a {
   border-radius: 10px;
 }
 
-.img-box sub{
+.img-box sub {
   margin-top: 8px;
   text-align: center;
-  max-width: 200px ;
+  max-width: 200px;
   color: #1f2937;
 }
