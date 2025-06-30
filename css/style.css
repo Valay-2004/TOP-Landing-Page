@@ -174,11 +174,23 @@ a {
   border-radius: 8px;
   color: #e5e7eb;
   background-color: #3882f6;
+  max-width: 800px;
+}
+
+.cta-text{
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
 }
 
 .cta #top{
   font-size: 24px;
   font-weight: 800;
+}
+
+.cta #bottom{
+  font-size: 16px;
+  color: #e5e7eb;
 }
 
 .submit-button {
@@ -188,5 +200,18 @@ a {
   cursor: pointer;
   color: #e5e7eb;
   padding: 5px 25px;
-  font-weight: bold;
+  font-weight: 600;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background-color: #1f2937;
+  color: #e5e7e8;
+}
+
+.footer p{
+  font-size: 16px;
 }
